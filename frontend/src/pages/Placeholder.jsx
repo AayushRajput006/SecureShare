@@ -1,0 +1,1 @@
+import React from 'react';import {Paper,Typography,Alert} from '@mui/material';export default function Placeholder({title}){return <Paper sx={{p:4}}><Typography variant="h4" gutterBottom>{title}</Typography><Alert severity="info">Reserved for subsequent milestones. No live file operations are available yet.</Alert></Paper>}

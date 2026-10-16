@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+coverage/
+.DS_Store
+blockchain/artifacts/
+blockchain/cache/
+blockchain/ignition/deployments/
+*.log

@@ -1,0 +1,11 @@
+{
+  "name": "blockchain-file-sharing",
+  "private": true,
+  "version": "0.3.0",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "test:backend": "npm --prefix backend test",
+    "blockchain:init": "cd blockchain && npx hardhat --init"
+  }
+}
