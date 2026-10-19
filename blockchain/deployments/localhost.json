@@ -1,0 +1,7 @@
+{
+  "network": "localhost",
+  "chainId": 31337,
+  "contractName": "FileSharing",
+  "contractAddress": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+  "status": "deployed"
+}

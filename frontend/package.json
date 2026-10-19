@@ -13,11 +13,11 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^7.0.0",
     "@mui/material": "^7.0.0",
+    "axios": "^1.0.0",
+    "ethers": "^6.17.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.0.0",
-    "ethers": "^6.0.0",
-    "axios": "^1.0.0"
+    "react-router-dom": "^7.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.0",

@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Paper, Typography, Stack, Alert } from "@mui/material";
+import ConnectWallet from "../components/ConnectWallet";
+import RegisterFile from "../components/RegisterFile";
+import FileDetails from "../components/FileDetails";
+import ManageAccess from "../components/ManageAccess";
+
 export default function Dashboard() {
   const [status, setStatus] = useState("checking");
   useEffect(() => {
@@ -25,6 +30,10 @@ export default function Dashboard() {
         <Typography color="text.secondary">
           File counts and wallet data will be integrated in future milestones.
         </Typography>
+        <ConnectWallet />
+        <RegisterFile />
+        <FileDetails />
+        <ManageAccess />
       </Stack>
     </Paper>
   );
